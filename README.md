@@ -6,7 +6,8 @@ Use as a Template for an HTML Website with the files including a server.js http 
 Table of contents\
 - [Initiate using whatever IDE](#Initiate)
 - [Git Init the Folder](#Git-Initiate)
-- [Features of the JS Server files](#Features of the JS Server Files)
+- [Features of the JS Server files](#features-of-the-js-server-files)
+- [Using Visual Studio Code with Git](#using-vsc-with-git) More Detailed Tutorial (might work with other IDEs)
 
 ## Initiate
 
