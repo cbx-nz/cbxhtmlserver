@@ -1,15 +1,18 @@
 
 # cbxhtmlserver
 
-Use as a Template for an HTML Website with the files including a server.js http server, read the steps before using\
-\
-Table of contents\
-- [Initiate using whatever IDE](#Initiate)
-- [Git Init the Folder](#Git-Initiate)
+Use as a Template for an HTML Website with the files including a server.js http server, read the steps before using \
+the tutorials below can be if you want for your website to be in a github repo or your own folder\
+Table of contents \
+
+- [Initiate using whatever IDE](#initiate)
+- [Git Init the Folder](#git-initiate)
 - [Features of the JS Server files](#features-of-the-js-server-files)
 - [Using Visual Studio Code with Git](#using-vsc-with-git) More Detailed Tutorial (might work with other IDEs)
 
 ## Initiate
+
+download node.js for your computer
 
 ### Step 1
 
@@ -42,13 +45,28 @@ If you know how to init a git repo which you should, otherwise look online.
 ### Features of the JS Server Files
 
 #### server.js
+
 > automatically opens localhost tab when run\
 > if you want to use devtunnels\
 > better for testing your small website
+
 #### basicserver.js
+
 > doesn't open when run\
 > better for actual server use
 
 ## Using VSC with Git
 
-### Fork this Github Repository
+### Tutorial
+
+Fork this Github Repository then start on Step 2 and Ignore Step7-8. If not forking, do the following \
+
+1. Create a Github Repository on the website
+2. Open Visual Studio Code
+3. Open the Remote Repositories Tab on the left bar area
+4. press + icon and select your github repository
+5. on the Search bar in VSC type this command: `>Remote Repositories: Continue working in New Local Clone`
+6. Select a local destionation for your webserver / repository.
+7. Download a zip of the github files of cbxhtmlserver repo
+8. extract to the local repository folder
+9. start on [nodejs Tutorial](#initiate)
