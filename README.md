@@ -32,3 +32,12 @@ In terminal, Send `nodemon server.js` or `nodemon basicserver.js`
 ### Github Initiate
 
 If you know how to init a git repo which you should, otherwise look online.
+
+### Features of the JS Server Files
+
+#### server.js
+> automatically opens localhost tab when run\
+> better for devtunnels
+#### basicserver.js
+> localhost only\
+> doesn't open when run
