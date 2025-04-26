@@ -4,9 +4,9 @@
 Use as a Template for an HTML Website with the files including a server.js http server, read the steps before using\
 \
 Table of contents\
-- [Initiate using whatever IDE](#Initiate)\
-- [Git Init the Folder](#Git-Initiate)\
-- []
+- [Initiate using whatever IDE](#Initiate)
+- [Git Init the Folder](#Git-Initiate)
+- [Features of the JS Server files](#Features of the JS Server Files)
 
 ## Initiate
 
