@@ -1,7 +1,12 @@
 
 # cbxhtmlserver
 
-Use as a Template for an HTML Website with the files including a server.js http server, read the steps before using
+Use as a Template for an HTML Website with the files including a server.js http server, read the steps before using\
+\
+Table of contents\
+- [Initiate using whatever IDE](#Initiate)\
+- [Git Init the Folder](#Git-Initiate)\
+- []
 
 ## Initiate
 
@@ -11,7 +16,7 @@ Export and Import to a Local Folder
 
 ### Step 2
 
-In Terminal, Send `npm init` and install the following either on entire computer (npm install -g {package}) or only in folder (npm install -D {package}): `express`, `chalk`, `open`, `nodemon`. open is not required if using basicserver.js
+In Terminal, Send `npm init` and install the following either on entire computer (npm install -g {package}) or only in folder (npm install -D {package}): `express`, `chalk`, `open`, `nodemon`. open is not required if using basicserver.js, nodemon is not required but if you want to use it you can
 
 ### Step 2.5
 
@@ -27,9 +32,9 @@ put your website files in public/ and your js/css files into the assets/, any im
 
 ### Step 5 -- Run Server
 
-In terminal, Send `nodemon server.js` or `nodemon basicserver.js`
+In terminal, Send `node server.js` or `node basicserver.js`
 
-### Github Initiate
+### Git-Initiate
 
 If you know how to init a git repo which you should, otherwise look online.
 
@@ -37,7 +42,12 @@ If you know how to init a git repo which you should, otherwise look online.
 
 #### server.js
 > automatically opens localhost tab when run\
-> better for devtunnels
+> if you want to use devtunnels\
+> better for testing your small website
 #### basicserver.js
-> localhost only\
-> doesn't open when run
+> doesn't open when run\
+> better for actual server use
+
+## Using VSC with Git
+
+### Fork this Github Repository
