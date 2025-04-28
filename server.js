@@ -4,7 +4,7 @@ const open = require('open').default;
 const chalk = require('chalk').default;
 const app = express();
 const PORT = process.env.PORT || 3000;
-const DEV_TUNNEL_URL = 'https://mdj4j0pv-3000.aue.devtunnels.ms';
+const DEV_TUNNEL_URL = 'devtunnels link';
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
