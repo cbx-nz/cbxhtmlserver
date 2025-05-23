@@ -57,10 +57,10 @@ If you know how to init a git repo which you should, otherwise look online.
 
 #### upnp.js
 
-> easy version rather than use port forwarding if want public
-> make sure router has UPnP on
-> install `npm install nat-upnp` to be able to run (and install everything required in basicserver.js)
-> some ISP/enterprise places may not have UPnP available.
+> easy version rather than use port forwarding if want public\
+> make sure router has UPnP on\
+> install `npm install nat-upnp` to be able to run (and install everything required in basicserver.js)\
+> some ISP/enterprise places may not have UPnP available.\
 
 ## Using VSC with Git
 
