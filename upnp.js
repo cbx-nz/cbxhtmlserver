@@ -1,19 +1,14 @@
+// MIT Licensed - Created by CB𝑥.nz or cbgamesxyz
 const express = require('express');
 const path = require('path');
 const chalk = require('chalk').default;
 const upnp = require('nat-upnp');
 const app = express();
-const PORT = process.env.PORT || 3000;
-
-// Serve static files
+const PORT = 3000;
 app.use(express.static(path.join(__dirname, 'public')));
-
-// Catch-all route
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
-
-// UPnP port mapping
 const client = upnp.createClient();
 client.portMapping({
     public: PORT,
