@@ -1,13 +1,18 @@
 const express = require('express');
 const path = require('path');
-const chalk = require('chalk').default;
+const chalk = require('chalk');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    const indexPath = path.join(__dirname, 'public', 'index.html');
+    res.sendFile(indexPath, err => {
+        if (err) {
+            console.error(chalk.red(`Failed to send index.html: ${err.message}`));
+            res.status(500).send('Internal Server Error');
+        }
+    });
 });
 app.listen(PORT, () => {
-    console.log(chalk.green.bold(`Server is running at http://localhost:${PORT}`));
-    console.log(chalk.blue(`localhost started`));
+    console.log(chalk.green.bold(`✅ Server is running at http://localhost:${PORT}`));
 });
